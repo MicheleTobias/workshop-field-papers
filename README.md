@@ -52,9 +52,9 @@ Once we have information written on our atlas pages, we need to make a digital c
 
 |Format|Pro|Con|
 |---|---|---|
-|Photo|Phone cameras are readily available|quality may be an issue|
-|  |  |Stretch at photo edges distorts images|
-|Scanner|control image quality|harder to come by (solution: see GIS room on lower level of Shields)|
+|Photo|Phone cameras are readily available|Quality may be an issue|
+|  |Cloud storage facilitates data transfer  |Stretch at photo edges distorts images|
+|Scanner|Control image quality|harder to come by (solution: see GIS room on lower level of Shields)|
 |  |Scanner lid flattens pages, less image distortion| |
 |  |No shadows| |
 
@@ -65,6 +65,12 @@ Transfer the images to your computer. If you're using your phone, cloud photo se
 The big advantage of using Field Papers is that the online tool can automatically georeference the atlas pages because of the marks embedded in the images (notice the plack circles and QR code along the edges of the map).
 
 On the [Field Paper Upload page](http://fieldpapers.org/snapshots/new), upload one of your images.  When it finishes, the interface will offer you several options for working with the file.  We want to clikc 'Download GeoTIFF' to get a file we can use in a GIS.  The options below that (iD, Potlatch, JOSM) are ways to view the image in an OpenStreetMap (OSM) editor to digitize into the OSM dataset.  This is a nice way to contribute data to the shared OSM dataset, but if we're working on a research question, the data we generate might not be useful to the broader OSM community and might not be something we want to share publically. 
+
+What if my image doesn't process?  Try these things:
+1. Take a new image as close as you can, avoiding shadows
+1. Make sure your image is in focus
+1. Make sure your image is taken as perpendicular to the page as possible (nadir, not obique)
+1. Crop the edges off of the image, making sure not to remove the reference points of QR code.
 
 ## GIS Work
 
