@@ -21,24 +21,24 @@ By the end of this workshop, participants should be able to
 1. Understand options for working with the georeferenced images
 
 # What is Participatory Mapping?
-Participatory mapping is a set of techniques that combines traditional cartographic methods with participatory methods to document the knowledge of a community.  The methods can take many forms but can include discussions, marking places on maps, or in-field data collection with GPS.  The end goal is to produce a phisical map or digital dataset containing local knowledge.
+Participatory mapping is a set of techniques that combines traditional cartographic methods with participatory methods to document the knowledge of a community.  The methods can take many forms but can include discussions, marking places on maps, or in-field data collection with GPS.  The end goal is to produce a physical map or digital dataset containing local geographic knowledge.
 
-For example, a community might want to document places they feel are unsafe because of a lack of functioning street lights.  To solve the problem, they first need to understand the scale of the problem - how many sites need to be addresses and where are they?  They might get a map of their community and have people draw on the map where they think the problem areas are.
+For example, a community might want to document places they feel are unsafe because of a lack of functioning street lights.  To solve the problem, they first need to understand the scale of the problem - how many sites are problematic and where are they?  They might get a map of their community and have people draw on the map where they think the problem areas are.
 
 In this workshop, we'll be using a printed map workflow to collect our knowledge of some aspect of the UC Davis campus.
 
 # What is Field Papers?
-What is [Field Papers](http://fieldpapers.org/about)?  Field papers is an online tool built by [Stamen Design](http://www.stamen.com/) that manages the participatory workflow that uses printed maps to collect information from printing maps, to georeferencing, and finally data digitizing using [OpenStreetMap](https://www.openstreetmap.org/) editing tools.
+What is [Field Papers](http://fieldpapers.org/about)?  Field papers is an online tool built by [Stamen Design](http://www.stamen.com/) that manages the participatory workflow that uses printed maps to collect information from printing maps, to georeferencing, and finally data digitizing using [OpenStreetMap](https://www.openstreetmap.org/) editing tools or importing into your own GIS program.
 
 
 ## Workflow Overview
 A typical printed map participatory mapping workflow includes these steps:
 
 1. **A Physical Map** - The map could be from any source - a travel map, a USGS Topographic Quadrangle, a print out from OpenStreetMap
-1. **Write on the Map** - community members draw and write on the map to indicate locations of the items that are important to them.
-1. **Scan or Photograph the Map** - you'll need to make your analog map into a digital image
-1. **Georeference** - georeferencing is the process of adding geographic coordinates to a scanned map image so that it can work with other spatia data.  Field Papers does this for you when you upload your map images.
-1. **Digitize Data** - create vector data from your scanned, georeferenced map for use with other spatial data.  This step may not be necessary, depeding on your goals.
+1. **Write on the Map** - Community members draw and write on the map to indicate locations of the locations that are important to them.
+1. **Scan or Photograph the Map** - You'll need to make your analog map into a digital image by scanning or taking a picture with a digital camera.
+1. **Georeference** - Georeferencing is the process of adding geographic coordinates to a scanned map image so that it can work with other spatia data.  Field Papers does this for you when you upload your map images.
+1. **Digitize Data** - Create vector data from your scanned, georeferenced map for use with other spatial data.  Depending on your goals, this step may not be necessary.
 
 
 ## Further Considerations
@@ -102,7 +102,7 @@ What if my image doesn't process?  Try these things:
 1. Take a new image as close as you can, avoiding shadows
 1. Make sure your image is in focus
 1. Make sure your image is taken as perpendicular to the page as possible (nadir, not obique)
-1. Crop the edges off of the image, making sure not to remove the reference points of QR code.
+1. Crop the edges off of the image, making sure not to remove the reference points or QR code.
 
 ## GIS Work
 
@@ -114,6 +114,7 @@ Generally, we'll use this workflow:
 
 1. Open QGIS
 1. Load the georeference map data
-1. Create a new, empty vector dataset to hold our edits - being sure to pick the correct geometry type (points, lines, or polygons). Note that we may need multiple files - one for each geometry type we need to work with.
+1. Create a new, empty vector dataset to hold our edits - being sure to pick the correct geometry type (points, lines, or polygons). Note that we may need multiple files - one for each geometry type we need to work with.  Add the attribute columns we want to describe the marks - we might want a Name column or a column to contain counts at the site... it depends on what we decide to map.
 1. Use the digitzing tools to trace our marks
+1. Import other background data to help us interpret our spatial distribution
 1. Style the data we created
