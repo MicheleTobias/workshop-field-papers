@@ -21,11 +21,23 @@ By the end of this workshop, participants should be able to
 1. Understand options for working with the georeferenced images
 
 # What is Participatory Mapping?
+Participatory mapping is a set of techniques that combines traditional cartographic methods with participatory methods to document the knowledge of a community.  The methods can take many forms but can include discussions, marking places on maps, or in-field data collection with GPS.  The end goal is to produce a phisical map or digital dataset containing local knowledge.
 
+For example, a community might want to document places they feel are unsafe because of a lack of functioning street lights.  To solve the problem, they first need to understand the scale of the problem - how many sites need to be addresses and where are they?  They might get a map of their community and have people draw on the map where they think the problem areas are.
+
+In this workshop, we'll be using a printed map workflow to collect our knowledge of some aspect of the UC Davis campus.
 
 # What is Field Papers?
+What is [Field Papers](http://fieldpapers.org/about)?  Field papers is an online tool that manages the participatory workflow that uses printed maps to collect information from printing maps, to georeferencing, and finally data digitizing using [OpenStreetMap](https://www.openstreetmap.org/) editing tools.
 
 ## Workflow Overview
+A typical printed map participatory mapping workflow includes these steps:
+
+1. **A Physical Map** - The map could be from any source - a travel map, a USGS Topographic Quadrangle, a print out from OpenStreetMap
+1. **Write on the Map** - community members draw and write on the map to indicate locations of the items that are important to them.
+1. **Scan the Map** - you'll need to make your analog map into a digital image
+1. **Georeference** - georeferencing is the process of adding geographic coordinates to a scanned map image so that it can work with other spatia data.
+1. **Digitize Data** - create vector data from your scanned, georeferenced map for use with other spatial data.  This step may not be necessary, depeding on your goals.
 
 ## Pros & Cons
 
