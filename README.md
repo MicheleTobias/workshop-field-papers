@@ -86,7 +86,7 @@ Once we have information written on our atlas pages, we need to make a digital c
 |---|---|---|
 |Photo|Phone cameras are readily available|Quality may be an issue|
 |  |Cloud storage facilitates data transfer  |Stretch at photo edges distorts images|
-|Scanner|Control image quality|harder to come by (solution: see GIS room on lower level of Shields)|
+|Scanner|Control image quality|An additional cost (solution: see GIS room on lower level of Shields)|
 |  |Scanner lid flattens pages, less image distortion| |
 |  |No shadows| |
 
