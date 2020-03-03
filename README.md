@@ -28,7 +28,7 @@ For example, a community might want to document places they feel are unsafe beca
 In this workshop, we'll be using a printed map workflow to collect our knowledge of some aspect of the UC Davis campus.
 
 # What is Field Papers?
-What is [Field Papers](http://fieldpapers.org/about)?  Field papers is an online tool that manages the participatory workflow that uses printed maps to collect information from printing maps, to georeferencing, and finally data digitizing using [OpenStreetMap](https://www.openstreetmap.org/) editing tools.
+What is [Field Papers](http://fieldpapers.org/about)?  Field papers is an online tool built by [Stamen Design](http://www.stamen.com/) that manages the participatory workflow that uses printed maps to collect information from printing maps, to georeferencing, and finally data digitizing using [OpenStreetMap](https://www.openstreetmap.org/) editing tools.
 
 
 ## Workflow Overview
@@ -36,20 +36,23 @@ A typical printed map participatory mapping workflow includes these steps:
 
 1. **A Physical Map** - The map could be from any source - a travel map, a USGS Topographic Quadrangle, a print out from OpenStreetMap
 1. **Write on the Map** - community members draw and write on the map to indicate locations of the items that are important to them.
-1. **Scan the Map** - you'll need to make your analog map into a digital image
-1. **Georeference** - georeferencing is the process of adding geographic coordinates to a scanned map image so that it can work with other spatia data.
+1. **Scan or Photograph the Map** - you'll need to make your analog map into a digital image
+1. **Georeference** - georeferencing is the process of adding geographic coordinates to a scanned map image so that it can work with other spatia data.  Field Papers does this for you when you upload your map images.
 1. **Digitize Data** - create vector data from your scanned, georeferenced map for use with other spatial data.  This step may not be necessary, depeding on your goals.
 
 
 ## Further Considerations
 
-This workflow works well when:
+This workflow with Field Papers works well when:
 
 * The community has map-reading skills already or you can train them
 * The community feels comfortable collecting knowledge in this way
-* Field Papers is particularly helpful for contributing data to collaborative datasets like OpenStreetMap
+* The data generated is not sensitive or private
+* The community wants to contribute their data to collaborative datasets like OpenStreetMap
 
-Other things to consider: This kind of data collection can feel extractive to some communities.  Be sure you can explain how the data will be used and stored.  To be truly participatory, the community should have ownership of their data and it should help them.  Additionally, you'll want to be careful to protect the data you collect and consider how mapping a set of knowledge might impact the community.  For example, making the locations of important cultural sites public can expose the area to looting.  
+Other things to consider: This kind of data collection can feel extractive to some communities.  Be sure you can explain how the data will be used and stored.  To be truly participatory, the community should have ownership of their data and it should help or be of value to them, not just the researcher.  Additionally, you'll want to be careful to protect the data you collect and consider how mapping a set of knowledge might impact the community.  For example, making the locations of important cultural sites public can expose the area to looting or damage.  
+
+**This workflow is not appropriate for personally indentifiable information (PII), HIPAA-restricted data, or data that should not be shared with a third party.***
 
 # Hands On Lesson
 
@@ -93,7 +96,7 @@ Transfer the images to your computer. If you're using your phone, cloud photo se
 
 The big advantage of using Field Papers is that the online tool can automatically georeference the atlas pages because of the marks embedded in the images (notice the plack circles and QR code along the edges of the map).
 
-On the [Field Paper Upload page](http://fieldpapers.org/snapshots/new), upload one of your images.  When it finishes, the interface will offer you several options for working with the file.  We want to clikc 'Download GeoTIFF' to get a file we can use in a GIS.  The options below that (iD, Potlatch, JOSM) are ways to view the image in an OpenStreetMap (OSM) editor to digitize into the OSM dataset.  This is a nice way to contribute data to the shared OSM dataset, but if we're working on a research question, the data we generate might not be useful to the broader OSM community and might not be something we want to share publically. 
+On the [Field Paper Upload page](http://fieldpapers.org/snapshots/new), upload one of your images.  When it finishes, the interface will offer you several options for working with the file.  We want to click 'Download GeoTIFF' to get a file we can use in a GIS.  The options below that (iD, Potlatch, JOSM) are ways to view the image in an OpenStreetMap (OSM) editor to digitize into the OSM dataset.  This is a nice way to contribute data to the shared OSM dataset, but if we're working on a research question, the data we generate might not be useful to the broader OSM community and might not be something we want to share publically. 
 
 What if my image doesn't process?  Try these things:
 1. Take a new image as close as you can, avoiding shadows
@@ -103,4 +106,14 @@ What if my image doesn't process?  Try these things:
 
 ## GIS Work
 
-Now we can open our favorite GIS and import our georeferenced atlas pages.
+Now we can open our favorite GIS, import our georeferenced atlas pages, and trace the places we mapped.
+
+In the workshop, we'll be working in [QGIS](https://qgis.org/) to create vector data from our scanned and georeferenced maps.  The QGIS Training Manual's [Creating Vector Data](https://docs.qgis.org/3.4/en/docs/training_manual/create_vector_data/index.html) module is an excellent intoduction to this workflow.
+
+Generally, we'll use this workflow:
+
+1. Open QGIS
+1. Load the georeference map data
+1. Create a new, empty vector dataset to hold our edits - being sure to pick the correct geometry type (points, lines, or polygons). Note that we may need multiple files - one for each geometry type we need to work with.
+1. Use the digitzing tools to trace our marks
+1. Style the data we created
