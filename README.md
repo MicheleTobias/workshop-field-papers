@@ -30,6 +30,7 @@ In this workshop, we'll be using a printed map workflow to collect our knowledge
 # What is Field Papers?
 What is [Field Papers](http://fieldpapers.org/about)?  Field papers is an online tool that manages the participatory workflow that uses printed maps to collect information from printing maps, to georeferencing, and finally data digitizing using [OpenStreetMap](https://www.openstreetmap.org/) editing tools.
 
+
 ## Workflow Overview
 A typical printed map participatory mapping workflow includes these steps:
 
@@ -39,8 +40,16 @@ A typical printed map participatory mapping workflow includes these steps:
 1. **Georeference** - georeferencing is the process of adding geographic coordinates to a scanned map image so that it can work with other spatia data.
 1. **Digitize Data** - create vector data from your scanned, georeferenced map for use with other spatial data.  This step may not be necessary, depeding on your goals.
 
-## Pros & Cons
 
+## Further Considerations
+
+This workflow works well when:
+
+* The community has map-reading skills already or you can train them
+* The community feels comfortable collecting knowledge in this way
+* Field Papers is particularly helpful for contributing data to collaborative datasets like OpenStreetMap
+
+Other things to consider: This kind of data collection can feel extractive to some communities.  Be sure you can explain how the data will be used and stored.  To be truly participatory, the community should have ownership of their data and it should help them.  Additionally, you'll want to be careful to protect the data you collect and consider how mapping a set of knowledge might impact the community.  For example, making the locations of important cultural sites public can expose the area to looting.  
 
 # Hands On Lesson
 
