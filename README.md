@@ -54,7 +54,7 @@ Other things to consider: This kind of data collection can feel extractive to so
 
 Like many universities and agencies that do research, UC Davis requires that research involving human subjects complete the research review process with the [UC Davis Institutional Review Board (IRB)](https://research.ucdavis.edu/policiescompliance/irb-admin/).  Participatory mapping methods require review.
 
-**This workflow is not appropriate for personally indentifiable information (PII), HIPAA-restricted data, or data that should not be shared with a third party.***
+**This workflow is not appropriate for personally indentifiable information (PII), HIPAA-restricted data, or data that should not be shared with a third party.**
 
 # Hands On Lesson
 
@@ -66,7 +66,7 @@ On the [Field Papers Compose page](http://fieldpapers.org/compose#15/38.5383/-12
 
 When you're happy with your Atlas specifications, click the 'make atlas' button.  It may take a few minutes to process.  When it is done, click the 'Download PDF' button to save the file with your atlas pages.  You'll need to print this file to work with it.  (A side note: make sure you turn off duplexing on your printer, especially if you want to tape the pages together into one big map.)
 
-We've made an [example atlas](data\atlas-3hasivcl.pdf) for you in the Data folder of the UC Davis campus.
+We've made an example atlas for you in the [Data folder](/data) of the UC Davis campus.
 
 ## Marking up the Atlas
 
