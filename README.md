@@ -94,6 +94,8 @@ Once we have information written on our atlas pages, we need to make a digital c
 
 Transfer the images to your computer. If you're using your phone, cloud photo services or online storage services can make this easy. (I'm letting my android phone upload the photos to Google Photos, then downloading them from my online account to my computer's hard drive.)
 
+We have uploaded example photographs in the [a folder in the Data Folder](/data/Example_Data_Photos) along with cropped and rotated photos in [this folder](/data/Example_Data_Photos_Cropped).
+
 ## Georeferencing
 
 The big advantage of using Field Papers is that the online tool can automatically georeference the atlas pages because of the marks embedded in the images (notice the plack circles and QR code along the edges of the map).
@@ -105,6 +107,8 @@ What if my image doesn't process?  Try these things:
 1. Make sure your image is in focus
 1. Make sure your image is taken as perpendicular to the page as possible (nadir, not obique)
 1. Crop the edges off of the image, making sure not to remove the reference points or QR code.
+
+We have uploaded example geocoded photographs in the [Data Folder](/data/Example_Data_Photos_Georeferenced).
 
 ## GIS Work
 
