@@ -1,11 +1,3 @@
-# To Do
-
-1. Finish workflow text
-1. Add example photos - cropped
-1. Add example georeferenced files
-
-
-
 # Participatory Mapping with Field Papers
 This workshop explores using [Field Papers](http://fieldpapers.org/) for participatory mapping.
 
