@@ -22,6 +22,7 @@ In this workshop, we'll be using a printed map workflow to collect our knowledge
 # What is Field Papers?
 What is [Field Papers](http://fieldpapers.org/about)?  Field papers is an online tool built by [Stamen Design](http://www.stamen.com/) that manages the participatory workflow that uses printed maps to collect information from printing maps, to georeferencing, and finally data digitizing using [OpenStreetMap](https://www.openstreetmap.org/) editing tools or importing into your own GIS program.
 
+![alt text](/images/atlas_pages.jpg "Printed Atlas Pages Arranged Together")
 
 ## Workflow Overview
 A typical printed map participatory mapping workflow includes these steps:
@@ -60,6 +61,7 @@ When you're happy with your Atlas specifications, click the 'make atlas' button.
 
 We've made an example atlas for you in the [Data folder](/data) of the UC Davis campus.
 
+
 ## Marking up the Atlas
 
 Together, let's decide on what we want to mark on our map.  If you're doing this exercise to collect data about a specific question, your decision is made for you.  For the purposes of this workshop, we can map anything we like.
@@ -88,6 +90,8 @@ Transfer the images to your computer. If you're using your phone, cloud photo se
 
 We have uploaded example photographs in the [a folder in the Data Folder](/data/Example_Data_Photos) along with cropped and rotated photos in [this folder](/data/Example_Data_Photos_Cropped).
 
+![alt text](/data/Example_Data_Photos_Cropped/A2_cropped.jpg "One Page of the Atlas Scanned and Cropped")
+
 ## Georeferencing
 
 The big advantage of using Field Papers is that the online tool can automatically georeference the atlas pages because of the marks embedded in the images (notice the plack circles and QR code along the edges of the map).
@@ -107,6 +111,8 @@ We have uploaded example geocoded photographs in the [Data Folder](/data/Example
 Now we can open our favorite GIS, import our georeferenced atlas pages, and trace the places we mapped.
 
 In the workshop, we'll be working in [QGIS](https://qgis.org/) to create vector data from our scanned and georeferenced maps.  The QGIS Training Manual's [Creating Vector Data](https://docs.qgis.org/3.4/en/docs/training_manual/create_vector_data/index.html) module is an excellent intoduction to this workflow.
+
+![alt text](/images/QGIS_atlas_pages.png "Georeferenced Atlas Pages in QGIS")
 
 Generally, we'll use this workflow:
 
