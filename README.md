@@ -52,6 +52,8 @@ This workflow with Field Papers works well when:
 
 Other things to consider: This kind of data collection can feel extractive to some communities.  Be sure you can explain how the data will be used and stored.  To be truly participatory, the community should have ownership of their data and it should help or be of value to them, not just the researcher.  Additionally, you'll want to be careful to protect the data you collect and consider how mapping a set of knowledge might impact the community.  For example, making the locations of important cultural sites public can expose the area to looting or damage.  
 
+Like many universities and agencies that do research, UC Davis requires that research involving human subjects complete the research review process with the [UC Davis Institutional Review Board (IRB)](https://research.ucdavis.edu/policiescompliance/irb-admin/).  Participatory mapping methods require review.
+
 **This workflow is not appropriate for personally indentifiable information (PII), HIPAA-restricted data, or data that should not be shared with a third party.***
 
 # Hands On Lesson
